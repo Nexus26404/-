@@ -1,0 +1,54 @@
+page{
+    background-color: #dedede;
+    padding: 20rpx;
+}
+
+.search_row{
+    height: 70rpx;
+    display: flex;
+    input{
+        flex: 1;
+        height: 100%;
+        background-color: #fff;
+        padding-left: 30rpx;
+    }
+    .abandan{
+        position: relative;
+        width: 120rpx;
+        height: 100%;
+        margin: 0 10rpx;
+        .btn_tip{
+            position: relative;
+            z-index: 9;
+            width: 100%;
+            font-size: 26rpx;
+            background-color: #fff;
+            height: 100%;
+            line-height: 70rpx;
+            text-align: center;
+        }
+        button{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: none;
+        }
+    }
+}
+
+.search_content{
+    margin-top: 30rpx;
+    .search_item{
+        background-color: #fff;
+        font-size: 26rpx;
+        padding: 15rpx 10rpx;
+        margin-bottom: 5rpx;
+        border-bottom: 1rpx solid #ccc;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
